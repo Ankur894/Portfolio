@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vh;
+    background-color: rgb(18, 17, 17);
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    height: 80px;
+    margin-top: 50px;
+    position: fixed;
+    border-radius: 10px;
+    background-color: rgb(28, 27, 27);
+}
+.port{
+    display: flex;
+    font-size: x-large;
+}
+.port #p2{
+    color: red;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    width: 60%;
+    font-size: medium;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px  white;
+}
+.nav a:hover{
+    text-decoration:dashed;
+    font-size: large;
+    color: red;
+    text-decoration-line: underline;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border-radius: 15px;
+    background-color: red;
+    width: 90px;
+    height: 25px;
+    text-shadow: 2px 2px 3px  white;
+}
+.follow:hover{
+    background-color: rgb(93, 84, 84);
+    text-shadow: 1px 1px 2px  rgb(130, 83, 83);
+    color: red;
+}
+
+main{
+    display: flex;
+    margin-left: 15%;
+    height: 400px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 160px;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+   
+}
+.img1 img{
+    width: 30%;
+    margin: 0;
+    background-color: red;
+    border-radius: 50%;
+    padding-bottom: 0;
+    box-shadow: 2px 2px 10px red,-2px -2px 10px yellow;
+}
+main .l1{
+    font-size: larger;
+
+}
+main .l2{
+    font-size:70px;
+    color: red;
+    text-shadow: 2px 2px 2px red;
+}
+main .l3{
+    font-size: larger;
+    margin-top: 4px;
+    line-height: 30px;
+}
+main #p2{
+    color: red;
+    font-size: x-large;
+}
+main #p3{
+    color: red;
+    font-size: large;
+}
+main .l4{
+    margin-top: 4px;
+}
+main .l5{
+    display:flex;
+    margin-top: 5px;
+}
+main .l5 #p3{
+    margin-right: 5px;
+}
+.about{
+    display: flex;
+    margin-left: 15%;
+}
+.img2 img{
+    width: 350px;
+    margin-top: 100px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 100px;
+    justify-content: center;
+    line-height: 45px;
+    font-size: medium;
+}
+.footer .l1{
+    font-size: 50px;
+    color: red;
+    text-shadow: 1px 1px 1px  red;
+}
+.footer .l2{
+    display: flex;
+    font-size: large;
+    margin-top: 10px;
+}
+.footer .l2 #p2{
+    color: red;
+    margin-left: 3px;
+}
+.footer .l3{
+    font-size: 17px;
+    line-height: 22px;
+}
+.footer .l4{
+    margin-top: 20px;
+}
+.footer .l4 a{
+    width: 90px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.footer .l4 a:hover{
+    background-color: rgb(93, 84, 84);
+    text-shadow: 1px 1px 2px  rgb(130, 83, 83);
+    color: red;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    line-height: 50px;
+}
+footer .l2 input{
+    background-color: red;
+    border-radius: 20px;
+    display: none;
+}
+footer .lab label{
+   font-size: large;
+   border-radius: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: red;
+   color: white;
+   width: 370px;
+   height: 23px;
+   text-shadow:1px 1px 1px white;
+}
+footer .lab label:hover{
+    background-color: rgb(93, 84, 84);
+    text-shadow: 1px 1px 2px  rgb(130, 83, 83);
+    color: red;
+}
+footer .l3{
+    margin-top: 50px;
+    font-size: 50px;
+    text-shadow: 2px 2px 1px white, -2px -2px 2px red;
+}
+footer .l4{
+    font-size: medium;
+}
+footer .l4 a{
+    color: white;
+}
+footer .l4 a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
